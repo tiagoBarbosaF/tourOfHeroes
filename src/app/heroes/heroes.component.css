@@ -5,6 +5,14 @@
     width: 15em;
 }
 
+input {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+}
+
 .heroes li {
     position: relative;
     cursor: pointer;
@@ -51,4 +59,34 @@
     text-align: right;
     margin-right: .8em;
     border-radius: 5px 0 0 5px;
+}
+
+.add-button {
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.add-button:hover{
+    color: white;
+    background-color: #42545C;
+}
+
+button.delete {
+    display: inline-block;
+    font-size: medium;
+    color: white;
+    padding: 1em;
+    background-color: darkred;
+    line-height: 1em;
+    position: absolute;
+    left: 220px;
+    top: 5px;
+    right: -1px;
+    top: -1px;
+    height: 2em;
+    min-width: 16px;
+    text-align: center;
+    margin-right: .8em;
+    border-radius: 0 5px 5px 0;
 }
